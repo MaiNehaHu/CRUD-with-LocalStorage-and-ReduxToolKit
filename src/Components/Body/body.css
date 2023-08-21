@@ -1,0 +1,62 @@
+.body-container {
+  color: white;
+  padding: 0% 2%;
+}
+
+#input {
+  gap: 5%;
+  margin: 1% 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 100%;
+
+  padding: 5px;
+  font-size: large;
+  font-family: "Righteous", cursive;
+}
+input[type="text"]:focus {
+  border: 5px solid var(--fav-color);
+}
+
+#input > button {
+  white-space: nowrap;
+
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+
+  font-size: large;
+  border-radius: 1rem;
+  font-family: "Righteous", cursive;
+  background-color: rgb(108, 29, 255);
+}
+
+#list{
+  margin: 10px 0px;
+}
+
+#list > p {
+  font-size: large;
+  font-family: "Righteous", cursive;
+}
+
+@media screen and (max-width: 500px) {
+  #input {
+    margin: 2% 0%;
+  }
+  input[type="text"] {
+    font-size: smaller;
+  }
+  #input > button {
+    font-size: smaller;
+  }
+  #list > p {
+    font-size: medium;
+  }
+}

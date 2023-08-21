@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --fav-color: rgb(152, 138, 255);
+}
+body {
+  padding: 5% 15%;
+  background-color: black;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    padding: 10% 15%;
+  }
+}

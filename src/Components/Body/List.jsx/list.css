@@ -1,0 +1,49 @@
+.task {
+  color: white;
+  font-size: large;
+  margin: 10px 0px;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  font-family: "Righteous", cursive;
+}
+
+.fa-trash-o {
+  cursor: pointer;
+}
+.fa-trash-o:hover {
+  color: red;
+}
+
+.task > p{
+  font-size: larger;
+}
+
+#delete-all > button {
+  white-space: nowrap;
+
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+  margin: 10px 0px;
+
+  font-size: large;
+  border-radius: 1rem;
+  font-family: "Righteous", cursive;
+  background-color: red;
+}
+
+@media screen and (max-width: 500px) {
+  .task {
+    font-size: medium;
+  }
+  #delete-all > button {
+    font-size: smaller;
+  }
+  .task > p{
+    font-size: medium;
+  }
+}
