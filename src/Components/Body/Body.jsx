@@ -15,7 +15,7 @@ const Body = () => {
     textInput === ""
       ? alert("Please write something")
       : dispatch(addTask(textInput));
-      
+
     /**Updating using dispatch */
   }
 
@@ -28,6 +28,11 @@ const Body = () => {
             name="task"
             id="task"
             onInput={(e) => setTextInput(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                addNewTask();
+              }
+            }}
           />
           <button onClick={addNewTask}>Add to list</button>
         </section>
