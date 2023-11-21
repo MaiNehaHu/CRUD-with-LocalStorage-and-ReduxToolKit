@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <BrowserRouter basename="/Priority-list">
+    <BrowserRouter basename="/CRUD-with-LocalStorage-and-ReduxToolKit">
       <Routes>
         <Route
           path="/"
