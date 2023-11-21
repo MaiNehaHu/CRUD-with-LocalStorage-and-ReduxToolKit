@@ -1,8 +1,6 @@
-# React + Vite
+# Priority list maker using redux toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## live link: https://mainehahu.github.io/CRUD-with-LocalStorage-and-ReduxToolKit/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![To-do-with-redux](https://github.com/MaiNehaHu/Priority-list/assets/111631957/978a5d82-d39d-42d7-8db0-4870d9a6c404)
